@@ -15,7 +15,7 @@ const Signup = () => {
       description: "Welcome to WeGo!",
     });
     // In a real app, you would handle user registration here
-    navigate("/");
+    navigate("/dashboard");
   };
 
   const handleGoogleSignup = () => {
@@ -25,6 +25,7 @@ const Signup = () => {
       title: "Google Signup",
       description: "Google authentication will be implemented with Supabase",
     });
+    navigate("/dashboard");
   };
 
   return (

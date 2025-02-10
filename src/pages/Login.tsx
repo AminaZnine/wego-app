@@ -15,7 +15,7 @@ const Login = () => {
       description: "Welcome back to WeGo!",
     });
     // In a real app, you would handle authentication here
-    navigate("/");
+    navigate("/dashboard");
   };
 
   const handleGoogleLogin = () => {
@@ -25,6 +25,7 @@ const Login = () => {
       title: "Google Login",
       description: "Google authentication will be implemented with Supabase",
     });
+    navigate("/dashboard");
   };
 
   return (
